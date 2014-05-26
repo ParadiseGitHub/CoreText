@@ -7,6 +7,7 @@
 //
 
 #import "JMYAppDelegate.h"
+#import "JMYFirstViewController.h"
 
 @implementation JMYAppDelegate
 
@@ -14,6 +15,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    JMYFirstViewController* first = [[JMYFirstViewController alloc] initWithNibName:@"JMYFirstViewController" bundle:nil];
+    UINavigationController* navi = [[UINavigationController alloc] initWithRootViewController:first];
+    self.window.rootViewController = navi;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

@@ -26,7 +26,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    _firstLabel.text = @"JMY";
+    _firstLabel.font = [UIFont systemFontOfSize:20];
+    _firstLabel.textAlignment = NSTextAlignmentCenter;
+    
 }
 
 - (void)didReceiveMemoryWarning

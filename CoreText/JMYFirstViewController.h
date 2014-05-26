@@ -10,4 +10,5 @@
 
 @interface JMYFirstViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *firstLabel;
 @end

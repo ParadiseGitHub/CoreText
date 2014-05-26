@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _firstLabel.text = @"JMY";
+    _firstLabel.text = @"Paradise";
     _firstLabel.font = [UIFont systemFontOfSize:20];
     _firstLabel.textAlignment = NSTextAlignmentCenter;
     
